@@ -1,0 +1,48 @@
+.component--about-as-images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #F1F1F1;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.images1 {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #F1F1F1;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #FDD835;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-bottom: 2em;
+    font-family: 'Belgrano', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        color: #FDD835;
+        background-color: #ffffff;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-as-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &>* {
+        flex: 1;
+    }
+}

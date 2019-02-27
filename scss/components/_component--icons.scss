@@ -1,0 +1,56 @@
+.component--icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 17em;
+    margin-right: 17em;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.elements3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 25px;
+}
+
+.cnt-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #BBBBBB;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cnt-icons1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa-shopping-basket,
+.fa-laptop,
+.fa-user-secret {
+    color: #FDD835;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+}
