@@ -7,12 +7,29 @@
     flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .container-form {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    input[type="text"],
+    input[type="email"] {
+        padding-left: 2em;
+        font-size: 15px;
+        color: #BBBBBB;
+        font-family: 'Belgrano', serif;
+    }
+    textarea[placeholder="YOUR MASSAGE *"] {
+        padding-left: 2em;
+        padding-top: 1em;
+        font-size: 15px;
+        color: #BBBBBB;
+        font-family: 'Belgrano', serif;
+    }
+    margin-top:4em;
+    margin-bottom: 2em;
 }
 
 .form-textrea {
@@ -21,6 +38,10 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 input {
@@ -29,6 +50,12 @@ input {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    margin-bottom: 28px;
+    border-radius: 4px;
+    text-align: left;
+    outline: none;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .contact-as {
