@@ -16,6 +16,10 @@
             display: flex;
             align-items: center;
             margin-bottom: 1em;
+            &:hover {
+                transform: scale(1.2);
+                transition-duration: 1.5s;
+            }
         }
         
         .cnt-team {
@@ -41,8 +45,8 @@
         .team,
         .fa-pinterest,
         .fa-google-plus,
-        .fa-twitter {
-            font-size: 40px;
+        {
+            font-size: 35px;
             display: flex;
             justify-content: center;
             flex-direction: row;
@@ -56,23 +60,6 @@
         .fa-google-plus {
             &:hover {
                 color: #FDD835;
-            }
-        }
-        
-        .fa-twitter {
-            font-size: 25px;
-            border-radius: 90px;
-            color: #fff;
-            background-color: #000;
-            border: 1px solid #000;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            &:hover {
-                background-color: #FDD835;
-                color: #fff;
-                border: solid #FDD835;
             }
         }
         

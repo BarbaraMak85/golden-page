@@ -14,10 +14,10 @@
 
 <body>
     <header class="component--nav-welcome">
-
+        <i class="fas fa-bars hamburger"></i>
         <nav class="nav">
+            <img src="images/logo-golden.png">
 
-            <h3 class="golden">Barbara</h3>
             <ul>
 
                 <li><a href="#">home</a></li>
@@ -70,15 +70,15 @@
 
     <section class="portfolio">
         <div class="portfolio-our">
-            <img src="images/ebony.jpg">
-            <img src="images/smartStacionary.jpg">
-            <img src="images/cleverPoster.jpg">
+            <img class="img-our" src="images/ebony.jpg">
+            <img class="img-our" src="images/smartStacionary.jpg">
+            <img class="img-our" src="images/cleverPoster.jpg">
 
         </div>
         <div class="portfolio-our1">
-            <img src="images/vinylRecord.jpg">
-            <img src="images/treehouseTemplate.jpg">
-            <img src="images/burnedLogo.jpg">
+            <img class="img-our" src="images/vinylRecord.jpg">
+            <img class="img-our" src="images/treehouseTemplate.jpg">
+            <img class="img-our" src="images/burnedLogo.jpg">
         </div>
 
     </section>
@@ -165,7 +165,7 @@
             <div class="team">
                 <i class="fab fa-pinterest"></i>
                 <i class="fab fa-google-plus"></i>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
             </div>
 
         </div>
@@ -176,7 +176,7 @@
             <div class="team">
                 <i class="fab fa-pinterest"></i>
                 <i class="fab fa-google-plus"></i>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
             </div>
         </div>
         <div>
@@ -187,7 +187,7 @@
             <div class="team">
                 <i class="fab fa-pinterest"></i>
                 <i class="fab fa-google-plus"></i>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
             </div>
 
         </div>
@@ -197,7 +197,7 @@
 
     </section>
     <section class="component--amazing-team">
-        <div>
+        <div class="team-us">
             <p class="pafagraph-team">Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae ex.</p>
             <p class="pafagraph-team">Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet . </p>
         </div>
@@ -206,10 +206,10 @@
 
     <section class="component--logo">
         <div class="logo">
-            <img src="images/logoAE.jpg">
-            <img src="images/logoWP.jpg">
-            <img src="images/logoA.jpg">
-            <img src="images/LogoMicro.jpg">
+            <img class="img-logo" src="images/logoAE.jpg">
+            <img class="img-logo" src="images/logoWP.jpg">
+            <img class="img-logo" src="images/logoA.jpg">
+            <img class="img-logo" src="images/LogoMicro.jpg">
         </div>
 
     </section>
@@ -221,41 +221,44 @@
         </div>
 
 
+        <div>
 
+            <form class="container-form" action="" method="POST">
 
-        <form class="container-form" action="" method="POST">
+                <div>
+                    <input type="text" name="user-name" placeholder="YOUR NAME *">
+                    <input type="email" name="required" placeholder="YOUR NAME *">
+                    <input type="text" name="user-name" placeholder="SUBJECT">
+                </div>
+                <div class="textarea-team">
+                    <textarea class="form-textrea" name="message" placeholder="YOUR MASSAGE *"></textarea>
+                </div>
 
-            <div>
-                <input type="text" name="user-name" placeholder="YOUR NAME *">
-                <input type="email" name="required" placeholder="YOUR NAME *">
-                <input type="text" name="user-name" placeholder="SUBJECT">
-            </div>
-            <div>
-                <textarea class="form-textrea" name="message" placeholder="YOUR MASSAGE *"></textarea>
-            </div>
-
-        </form>
-
+            </form>
+        </div>
 
         <div class="welcome-form">
             <button class="btn-form">send message</button>
         </div>
     </section>
+
     <section class="component-footer">
         <div>
 
 
             <div class="copy-footer">
                 <p class="paragraph-footer">© Copyright 2019, Barbara Makowiec</p>
-                <i class="fab fa-pinterest"></i>
-                <i class="fab fa-google-plus"></i>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest icon"></i>
+                <i class="fab fa-google-plus icon"></i>
+                <i class="fab fa-pinterest icon"></i>
+                <i class="fab fa-google-plus icon"></i>
+
             </div>
         </div>
 
 
     </section>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

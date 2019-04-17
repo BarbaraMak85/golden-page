@@ -1,0 +1,246 @@
+// * {
+//     box-sizing: border-box;
+// }
+// body {
+//     width: 100%;
+// }
+body {
+    margin: 0;
+}
+
+i.hamburger {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .portfolio-our,
+    .portfolio-our1 {
+        background-color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .component--icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+    }
+    .elements3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .cnt-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .cnt-icons1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 35px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .logo {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        padding-bottom: 2em;
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 100%;
+    }
+    .img-logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    //Kontakt
+    .component--contact {
+        width: 100%;
+        margin: auto
+    }
+    .container-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    input {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        height: 30px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 0px;
+    }
+    textarea {
+        margin: auto;
+        padding: 0px;
+    }
+    .form-textrea {
+        width: 300px;
+        height: 105;
+    }
+    .contact-as {
+        padding-top: 0px;
+    }
+    .as {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .pafagraph-form {
+        font-size: 12px;
+    }
+    .btn-form {
+        display: flex;
+        justify-content: center;
+        width: 330px;
+        height: 40px;
+        font-size: 15px;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+    }
+    //Footer
+    .component-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .icon {
+        font-size: 28px;
+    }
+    .copy-footer {
+        margin-left: 40px;
+    }
+    .textarea-team {
+        margin-bottom: 10px;
+    }
+    .paragraph-footer {
+        font-size: 12px;
+        font-family: 'Belgrano', serif;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-form input {
+        margin-top: 10px;
+    }
+    .container-form .form-textrea {
+        margin-top: 10px;
+    }
+    .nav {
+        display: none;
+        min-height: 0;
+    }
+    .nav.show {
+        margin-top: -80px;
+        display: flex;
+        background-color: #191919;
+        height: 104vh;
+        margin-right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    i.hamburger {
+        display: flex;
+        color: #fff;
+        line-height: 80px;
+        justify-content: flex-end;
+        margin: 0 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    ul {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    li {
+        justify-content: center;
+        margin-left: 50px;
+        line-height: 64px
+    }
+    button {
+        width: 50%;
+        height: 39px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 27px;
+    }
+    .component--about-as-images .about-as-item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-left: 5px;
+    }
+    .about-as-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 5px;
+    }
+    .head-about,
+    .head-as {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .pafagraph-as {
+        text-align: center;
+        margin-left: 5px;
+        margin-left: 5px;
+    }
+    .team-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

@@ -10,3 +10,10 @@
     margin-left: 17em;
     margin-right: 17em;
 }
+
+.img-logo {
+    &:hover {
+        transform: scale(1.5);
+        transition-duration: 1s;
+    }
+}
